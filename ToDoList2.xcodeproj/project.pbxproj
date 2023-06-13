@@ -11,6 +11,10 @@
 		BDC4C91B2A196E50000B341F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C91A2A196E50000B341F /* ContentView.swift */; };
 		BDC4C91D2A196E51000B341F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC4C91C2A196E51000B341F /* Assets.xcassets */; };
 		BDC4C9202A196E51000B341F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDC4C91F2A196E51000B341F /* Preview Assets.xcassets */; };
+		BDC4C9272A196ECE000B341F /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C9262A196ECE000B341F /* NewToDoView.swift */; };
+		BDC4C9292A196EF1000B341F /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C9282A196EF1000B341F /* ToDoItem.swift */; };
+		BDC4C92B2A197028000B341F /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C92A2A197028000B341F /* Persistence.swift */; };
+		BDC4C92E2A19711B000B341F /* ToDoList2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BDC4C92C2A19711B000B341F /* ToDoList2.xcdatamodeld */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		BDC4C91A2A196E50000B341F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		BDC4C91C2A196E51000B341F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BDC4C91F2A196E51000B341F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BDC4C9262A196ECE000B341F /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		BDC4C9282A196EF1000B341F /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
+		BDC4C92A2A197028000B341F /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BDC4C92D2A19711B000B341F /* ToDoList2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ToDoList2.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,8 +61,12 @@
 			children = (
 				BDC4C9182A196E50000B341F /* ToDoList2App.swift */,
 				BDC4C91A2A196E50000B341F /* ContentView.swift */,
+				BDC4C92A2A197028000B341F /* Persistence.swift */,
+				BDC4C9262A196ECE000B341F /* NewToDoView.swift */,
+				BDC4C9282A196EF1000B341F /* ToDoItem.swift */,
 				BDC4C91C2A196E51000B341F /* Assets.xcassets */,
 				BDC4C91E2A196E51000B341F /* Preview Content */,
+				BDC4C92C2A19711B000B341F /* ToDoList2.xcdatamodeld */,
 			);
 			path = ToDoList2;
 			sourceTree = "<group>";
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BDC4C9272A196ECE000B341F /* NewToDoView.swift in Sources */,
 				BDC4C91B2A196E50000B341F /* ContentView.swift in Sources */,
+				BDC4C92E2A19711B000B341F /* ToDoList2.xcdatamodeld in Sources */,
+				BDC4C9292A196EF1000B341F /* ToDoItem.swift in Sources */,
 				BDC4C9192A196E50000B341F /* ToDoList2App.swift in Sources */,
+				BDC4C92B2A197028000B341F /* Persistence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -339,6 +355,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BDC4C92C2A19711B000B341F /* ToDoList2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BDC4C92D2A19711B000B341F /* ToDoList2.xcdatamodel */,
+			);
+			currentVersion = BDC4C92D2A19711B000B341F /* ToDoList2.xcdatamodel */;
+			path = ToDoList2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BDC4C90D2A196E50000B341F /* Project object */;
 }
